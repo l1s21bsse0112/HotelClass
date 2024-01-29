@@ -9,7 +9,11 @@ class HotelRoom{
 	public:
 		
 		HotelRoom();
-		void BookRoom();
+		
+		void BookRoom(){
+			cout << "The Room has been booked\n";
+		}
+		
 		void CheckoutRoom();
 		bool isRoomBooked();
 };
