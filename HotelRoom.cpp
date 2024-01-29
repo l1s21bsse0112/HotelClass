@@ -18,7 +18,9 @@ class HotelRoom{
 			cout << "The Room has been checked out\n";
 		}
 		
-		bool isRoomBooked();
+		bool isRoomBooked(){
+			return true;
+		}
 };
 
 int main (){
